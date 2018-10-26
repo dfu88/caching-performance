@@ -26,28 +26,28 @@ You will need a GCC compiler to compile the C files.
 On Mac OS, this can be done through *Homebrew* or installing *XCode Command Line Tools*.  
 Open up terminal and enter:
 
-**Homebrew**
+##### Homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 brew update
 brew install gcc
 ```
-**XCode**
+##### XCode
 ```
 xcode-select --install
 ```
+
 #### Linux
 
 On Linux, this can be done by installing *GCC* or the *build-essentials* package.  
 Open up terminal and enter:
 
-**GCC only**
+##### GCC only
 ```
 sudo apt install gcc
 ```
-
-**build-essentials package**
+##### build-essentials package
 ```
 sudo apt install build-essential
 ```
