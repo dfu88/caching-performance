@@ -5,6 +5,7 @@ Dylan Fu
 ## Description
 
 **Task 1:** Measures the difference in access time of the caches between linear vs random access.
+
 **Task 2:** Measure the difference in performance in matrix multiplication:
   * Naive Implementation
   * Transpose secondary matrix, to make memory accesses contiguous
