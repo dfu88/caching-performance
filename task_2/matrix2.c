@@ -24,19 +24,19 @@ int main ()
   
   /* variables for task 2 */
   int N = 1000;
-  int **a, **b, **c;
+  double **a, **b, **c;
 
     
   printf("allocate array\n");  
   /* allocate memory for 2d array*/
-  a = malloc(N * sizeof(int *));
-  b = malloc(N * sizeof(int *));
-  c = malloc(N * sizeof(int *));
+  a = malloc(N * sizeof(double *));
+  b = malloc(N * sizeof(double *));
+  c = malloc(N * sizeof(double *));
 
   for (int i = 0; i<N; ++i) {
-    a[i] = malloc(N * sizeof(int));
-    b[i] = malloc(N * sizeof(int));
-    c[i] = malloc(N * sizeof(int));
+    a[i] = malloc(N * sizeof(double));
+    b[i] = malloc(N * sizeof(double));
+    c[i] = malloc(N * sizeof(double));
   }
 
 
@@ -76,7 +76,7 @@ int main ()
   /* output; examples, adjust for task */
   for (int i = 0; i < N; ++i) {
     for (int j = 0; j < N; ++j) {
-      printf("%d ", c[i][j]);
+      printf("%f ", c[i][j]);
     }
   }
   printf("time: %6.2f secs\n",(t2 - t1));
