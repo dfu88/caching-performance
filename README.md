@@ -61,7 +61,7 @@ If you are on Windows, you can click [here](https://preshing.com/20141108/how-to
 Clone the repository to your local machine with the following command in terminal:
 
 ```
-git clone https://github.com/dfu88/caching-performance.git
+git clone https://github.com/dylanfu/caching-performance.git
 ```
 
 ## Running the tests
